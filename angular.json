@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "doodlePost"
+    }
+  },
+  "defaultProject": "doodlePost",
+  "cli": {
+    "analytics": "01bc8961-6762-47ce-833d-93d0a1be5ac3"
+  }
 }

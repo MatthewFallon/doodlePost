@@ -1,0 +1,13 @@
+img {
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+  padding: 25px 25px;
+  background-color: #e0e0e0;
+  border-radius: 25px;
+}
+.art-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 25px 0;
+}

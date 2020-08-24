@@ -1,0 +1,79 @@
+nav ul li span.brand a {
+  font-size: 48pt;
+  color: white;
+  font-family: "Script MT Bold", serif;
+  text-decoration: none;
+}
+nav ul {
+  background-color: blueviolet;
+  padding: 10px 0;
+  margin: 0;
+  text-align: center;
+}
+nav ul li {
+  display: inline-block;
+  padding: 0 10px;
+}
+nav ul li a {
+  text-decoration: none;
+  font-size: 24pt;
+  font-family: serif;
+  padding: 5px 10px;
+  color: lavender;
+  border-radius: 25px;
+  transition: background-color 200ms ease;
+}
+nav ul li a:visited {
+  color: #bebede;
+}
+nav ul li a:hover {
+  background-color: #5803a1;
+}
+nav ul li a:active {
+  background-color: #44027d;
+}
+
+
+.side-by-side-grid {
+  width: 80%;
+  margin: 0 auto;
+  background-color: #eaeaf5;
+  color: #555555;
+  padding: 50px 35px;
+  display: grid;
+  grid-template-areas: "main aside";
+  grid-template-columns: 3fr 1fr;
+  grid-gap: 25px;
+}
+.side-by-side-grid main {
+  grid-area: main;
+  align-self: start;
+  padding: 20px;
+  border-radius: 50px;
+  border: 2px solid blueviolet;
+}
+.side-by-side-grid aside {
+  grid-area: aside;
+  align-self: start;
+  padding: 20px;
+  border-radius: 50px;
+  border: 2px solid blueviolet;
+}
+.side-by-side-grid aside img {
+  display: block;
+
+  padding: 30px 25px;
+  background-color: #e0e0e0;
+  border-radius: 25px;
+}
+
+
+footer {
+  padding: 20px;
+  background-color: blueviolet;
+}
+footer p {
+  text-align: center;
+  font-size: 16pt;
+  color: white;
+}
